@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.box{
+    border:  2px dashed tomato;
+    width: 50px;
+    height: 50px;
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+.date, .day{
+    background-color: lightcoral;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.day{
+    background-color: rgb(202, 64, 64);
+    he
+}
